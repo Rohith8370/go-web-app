@@ -1,7 +1,7 @@
 # This dockerfile is used for build the image and run the container of the go application
 
 # Start with a base image
-FROM golang:1.21 as base
+FROM golang:1.22.5 as base
 
 # Set the working directory inside the container
 WORKDIR /app
